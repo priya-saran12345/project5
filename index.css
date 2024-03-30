@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+.uppr{
+    display: flex;
+    width:100%;
+    margin-top: 20px;
+    padding-left:5% ;
+    /* justify-content: flex-start; */
+    gap: 12%;
+    box-sizing: border-box;
+}
+.uppr img{
+    width: 24%;
+}
+.right-uppr{
+    width: 100%;
+    padding: 0;
+    display: flex;
+}
+.right-uppr button{
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+margin-right: 20px;
+border: 2px solid rgb(158, 156, 156);
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+
+}
+.white a{
+color: rgb(40, 125, 170);
+}
+.blue-btn{
+    background-color:rgb(40, 125, 170);
+}
+.white:hover{
+    background-color: 
+    rgb(40, 125, 170);
+}
+.white a:hover{
+    color: white;
+}
+.right-lower{
+font-size: 20px;
+margin-top: 20px;
+text-align: right;
+}
+.right-lower a{
+    text-decoration: none;
+    color: rgb(100, 96, 96);
+    padding-right: 2%;
+    border-right: 1px solid grey;
+}
+
+.right-lower i{
+    color: red;
+    margin-right: 5px;
+    font-size: 25px;
+}
+.nav{
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 1.5%;
+    background-color: rgb(40, 125, 170);
+    padding:10px 3% ;
+
+}
+.nav a{
+    margin-right: 2px;
+padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid white;
+
+}
+.nav a:hover{
+    color: rgb(40, 125, 170);
+    background-color: white;
+}
+
+.main-img{
+     display: flex; 
+    align-items: center; 
+    font-size: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+.main-img{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+
+}
+.main-img img{
+    width: 100%;
+}
+
+.middle1{
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+padding-bottom: 10%;
+
+}
+.middle1 p{
+    color: rgb(88, 87, 87);
+
+}
+.middle1 ul{
+    list-style: none;
+}
+
+.middle1-first{
+    width: 48%;
+}
+.blue{
+    color: rgb(55, 109, 142);
+    font-size: 33px;
+}
+.grey{
+    color: rgb(146, 144, 144);
+    margin-bottom: 20px;
+}
+.middle1-first h3{
+    color: rgb(62, 61, 61);
+    margin-bottom: 20px;
+}
+.middle1-first button{
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 40px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.middle1-first button a{
+    color: black;
+}
+.middle1-second ,.middle1-third{
+    width: 20%;
+    background-color: rgb(231, 229, 229);
+    border-radius: 5px;
+
+    padding:10px 40px;
+}
+.middle1 ul li{
+    padding: 13px  0px;
+    border-bottom: 1px solid rgb(201, 199, 199);
+}
+.nav2{
+    width: 100%;
+    justify-content: flex-start;
+    gap: 3%;
+    text-transform: uppercase;
+    display: flex;
+    padding-left: 4%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    border-bottom: 1px solid  rgb(184, 183, 183);
+}
+.headings{
+    margin: 30px 70px;
+}
+.nav2 a{
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    margin-bottom: 5%;
+}
+.card{
+    width: 20%
+    ;
+    border-bottom: 1px  solid rgb(114, 113, 113);
+    border-radius: 5px;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card p{
+    margin: 10px;
+}
+.middle2{
+    display: flex;
+    align-items: start;
+    justify-content: center
+    ;
+    width: 100%;
+    padding:30px;
+    background-color:  rgb(231, 230, 230);
+    box-sizing: border-box;
+    gap: 4%;
+}
+.middle2-left{
+    width: 25%;
+    background-color: rgb(61, 161, 161);
+    margin-left: 3%;
+    color: white;
+    font-size: 25px;
+    padding: 4% 4%;
+}
+.middle2-left ul{
+    list-style: none;
+}
+.middle2-left ul li{
+    padding: 10% 0;
+    border-bottom: 2px solid white;
+}
+.middle2-left i{
+    margin-right: 4%;
+    font-size: 45px;
+    color: rgb(145, 8, 8);
+}
+.middle2-right{
+    font-size: 18px;
+
+}
+.middle2-inner{
+    display: flex ;
+    margin-top: 4%;
+    gap: 4%;
+}
+
+.middle2-inner ul{
+    list-style: none;
+}
+.middle2-inner li a{
+    text-decoration: none;
+    color: rgb(96, 95, 95);
+
+
+}
+.card .short-img
+{
+width: 40%;
+margin-left:30% ;
+}
+.middle3 .card{
+    padding: 2% 1%;
+    background-color: white;
+}
+.middle2-inner li{
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+.middle3 h1 ,h2,h3{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.middle3 p{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.middle3 h1{
+    padding-top: 40px;
+}
+.middle3{
+    margin-top : 10%;
+    background-color: rgb(230, 229, 229);
+    padding-bottom: 4%;
+}
+.middle3 .card{
+    width: 18%;
+}
+.middle4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    font-size: 30px;
+    width: 90%;
+    margin: 4% auto;
+}
+.middle4 i{
+    background-color: aqua;
+    padding: 10px;
+}
+.strip{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.middle5,.middle6 h1{
+    text-align: center;
+}
+.middle5 .card{
+    width: 18%;
+    background-color: rgb(224, 223, 223);
+}
+.middle5 .card img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.middle6 img{
+width: 50%;
+margin-left: 25%;
+}
+.middle6 .card{
+    width: 15%;
+    border: 1px solid rgb(169, 168, 168);
+    padding: 10px;
+    margin-top: 5%;
+    background-color: rgb(224, 223, 223);
+
+}
+.last{
+    background-color: rgb(237, 236, 236);
+
+}
+.last1{
+    display: flex;
+    align-items: center;
+    width:80% ;margin: auto;
+    gap: 4%;
+}.last1 input{
+    width: 25%;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+}
+.last1 p{
+    width: 20%;
+}
+.last1 a{
+    text-decoration: none;
+    color: black;
+}
+.last2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2%;
+}
+.last2 ul{
+    list-style: none;
+    padding: 30px 3%;
+    border-right: 1px solid black;
+}
+.last2 li a{
+    text-decoration: none;
+    color: rgb(130, 128, 128);
+    padding: 10px;
+}
+.last2 li{
+    padding: 5px;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 236, 236);
+    color: rgb(228, 155, 59);
+    font-size: 20px;
+}
+.final a{
+    color:rgb(124, 44, 44);
+    font-weight: 900;
+margin:0 20px;
+}
+.final i{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(41, 41, 71);
+}
+.contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 4%;
+    margin-bottom: 5%;
+}
+.contact-left{
+    padding: 0;
+}
+.left{
+    text-align: left;
+}
+.contact-left h3{
+    text-align: left;
+}
+.contact-left .blue{
+    font-size: 20px;
+}
+.contact-right{
+    width:40% ;
+}
+.contact-right form{
+    margin-left: 30px;
+
+}
+.contact-right input{
+    width: 60%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid rgb(185, 184, 184);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.admission
+{
+  width: 80%;
+  margin:5% auto ;
+  line-height: 30px;
+  font-size: 18px;
+}
+.admission button{
+    background-color: rgb(51, 129, 194);
+border: 1px solid white;
+border-radius: 10px;
+padding: 10px;
+margin-top: 30px;
+font-size: 18px;
+
+}
+.fee-structure1{
+    width: 70%;
+    margin: 5% auto;
+}
+.fee-structure1 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.fee-structure1 li{
+    margin: 20px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.fee-structure1 p{
+    margin: 30px;
+    font-size: 25px;
+}
+.fee-structure1 ul{
+    list-style: none;
+}
+.fee-structure1  p a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+.head{
+text-align: center;
+margin: 30px 0;
+}
+.fee-structure1 li a:hover{
+    color: rgb(75, 75, 221);
+
+}
+@media screen and ( max-width: 600px) {
+    .middle1{
+        flex-wrap: wrap;
+    }
+    .main-img{
+        width: 80%;
+    }
+    .middle1-first{
+        width: 90%;
+    }
+    .uppr img{
+        display: none;
+    }
+    .right-lower{
+        text-align: left;
+    }
+    .middle1-second ,.middle1-third{
+        width: 80%;
+        margin-top: 4%;
+    }
+    .nav2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+.card
+{
+    width: 80%;
+}
+.middle2{
+    flex-wrap: wrap;
+}
+
+.middle2-left{
+    width: 80%;
+}
+.middle3 .container{
+    flex-wrap: wrap;
+}
+.middle3 .card{
+    width: 80%;
+    margin-top: 40px;
+}
+.middle4{
+    flex-wrap: wrap;
+}
+.middle4 img{
+    width: 90%;
+    margin-top: 5%;
+}
+.middle5 .container{
+    flex-wrap: wrap;
+}
+.middle5 .card{
+    width: 80%;
+    margin-top: 7%;
+}
+.middle6 .container{
+    flex-wrap: wrap;
+}
+.middle6 .card{
+    width: 80%;
+}
+.last1{
+    flex-wrap: wrap;
+}
+.last1 p{
+    width: 80%;
+}
+.last2{
+    flex-wrap: wrap;
+}
+}

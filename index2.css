@@ -1,0 +1,129 @@
+.courses{
+    width: 85%;
+    margin: auto;
+    margin-top: 4%;
+}
+.courses-inner1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    gap: 4%;
+    width: 100%;
+}
+.courses-inner1 .card{
+    width: 25%;
+    margin-bottom: 4%;
+    border: none;
+    padding: 2%;
+
+}
+.div1{
+    background-color: lightblue;
+}
+.div2{
+    background-color: rgb(213, 239, 248);
+
+}
+.div3{
+    background-color: rgb(237, 128, 128);
+}
+.div4{
+    background-color: rgb(169, 167, 167);
+}
+.div5{
+    background-color: rgb(203, 199, 199);
+}
+.div6{
+    background-color: rgb(255, 174, 0);
+}
+.courses-inner2{
+    display: flex;
+    gap:2%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.courses-inner2 div{
+    width: 42%;
+    border: none;
+    padding: 3%;
+}
+.div7{
+    background-color: rgb(123, 194, 239);
+}
+.div8{
+    background-color: bisque;
+}
+
+.div9{
+    background-color: rgb(159, 233, 233);
+}
+.courses-inner2 button{
+    background-color: rgb(44, 44, 235);
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+.about{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about1{
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 10px;
+    margin: 3% 0 2% 25% ;
+padding: 2%;
+background-color: rgb(217, 240, 240);
+}
+.about1 h2{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: rgb(100, 40, 40);
+    line-height: 50px;
+}
+.ese{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.ese h2,h1{
+    margin-bottom: 3%;
+    line-height: 30px;
+    color: rgb(89, 29, 29);
+}
+.ese img{
+    width: 40%;
+}
+.full{
+    width: 80%;
+    margin-left: 10%;
+}
+.inner-career{
+    background-color: rgb(148, 31, 31);
+    font-size: 13px;
+    padding:  2% 5%;
+    color: white;
+    width: 70%;
+    margin-left: 30%;
+    opacity: .7
+    ;
+}
+.inner-career h2{
+    font-size: 30px;
+    text-align: left;
+}
+.career-btn button{
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 3%;
+    background-color: blue;
+}
+.career-btn button:hover{
+    background-color: bisque;
+    color: black;
+}
